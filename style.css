@@ -1,0 +1,122 @@
+/*Nunito font implementation*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/*General style*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Nunito, Calibri;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*Body style*/
+body {
+    color: white;
+    background-color: black;
+}
+
+/*Centering all the content on index page*/
+.center {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*Panel related style*/
+.panel {
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    margin: 20px;
+}
+
+.panelIconNText {
+    display: inline-flex;
+    float: left;
+}
+
+.panelIcon img {
+    height: 70px;
+}
+
+.panelText {
+    padding: 10px;
+}
+
+.panelButtons {
+    float: right;
+    margin-left: auto;
+}
+
+.panelButtons button {
+    background-color: black;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.25) 2px 2px 5px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: box-shadow .3s, background-color .3s;
+}
+
+button:hover, :focus {
+    box-shadow: white 0px 0px 0px 3px;
+}
+
+button img {
+    height: 30px;
+    padding: 5px;
+}
+
+/*Index page style*/
+.chooseLanguageHeader {
+    margin-bottom: 50px;
+}
+
+.chooseButton {
+    padding-top: 20px;
+    margin: 10px 30px;
+    display: inline-block;
+    height: 160px;
+    width: 130px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 15px;
+}
+
+.chooseButton img {
+    height: 100px;
+}
+
+/*Nav style*/
+.nav {
+    background-color: rgb(50, 50, 50);
+    justify-content: space-around;
+    display: flex;
+    height: 60px;
+    font-size: 30px;
+}
+
+.nav a {
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.active {
+    background-color: gray;
+    border-radius: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
