@@ -104,14 +104,14 @@ button img {
     justify-content: space-around;
     display: flex;
     height: 60px;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .nav a {
     color: white;
     width: 100%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 14px;
 }
 
 .active {
